@@ -16,7 +16,7 @@ txt = f"My name is {first_name} {last_name}, {hobby}, and I am {age}"
 #and this part tells the computer to show the text on the screen
 print(txt)
 age = int(input("What's your age? "))
-print(age)
+print("Are you sure you're", age, "?")
 name = input("What's your name? ")
 print("Hello", name)
 
